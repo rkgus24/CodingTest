@@ -1,0 +1,8 @@
+N, M = map(int, input().split())
+max_ = 0
+
+for i in range(N):
+	data = list(map(int, input().split()))
+	min_ = min(data)
+	max_ = max(max_, min_)
+print(max_)
